@@ -103,7 +103,7 @@ variable "private_subnet_rds_availability_zones" {
 # --------------------------------------------------------------
 terraform {
   backend          "s3"             {}
-  required_version = "= 0.9.10"
+  required_version = "= 0.10.6"
 }
 
 provider "aws" {
