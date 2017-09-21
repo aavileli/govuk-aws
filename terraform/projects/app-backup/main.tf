@@ -54,7 +54,8 @@ terraform {
 }
 
 provider "aws" {
-  region = "${var.aws_region}"
+  region  = "${var.aws_region}"
+  version = "0.1.4"
 }
 
 resource "aws_elb" "backup_elb" {
